@@ -1,0 +1,28 @@
+//Импорт общих стилей
+@import "./components/common.scss";
+
+//Импорт шрифтов
+@import "./components/fonts";
+
+
+//Импорт стилей страниц
+@import "./pages/index.scss";
+@import "./pages/list.scss";
+@import "./pages/inner.scss";
+@import "./pages/news-page.scss";
+@import "./pages/_exam.scss";
+
+//Импорт компонентов для страниц
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/card.scss";
+@import "./components/button.scss";
+@import "./components/phone.scss";
+@import "./components/gallery-card.scss";
+@import "./components/yellow-botton.scss";
+@import "./components/blue-botton.scss";
+@import "./components/services-card.scss";
+@import "./components/item-card.scss";
+
+
+

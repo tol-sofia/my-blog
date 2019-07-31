@@ -1,0 +1,16 @@
+.gallery-card {
+  height: 298px;
+  width: 400px;
+  padding: 0 10px;
+  
+  &__image {
+    //max-width: 100%;
+    height: 246px;
+    //margin-bottom: 15px;
+  }
+  &__flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+}

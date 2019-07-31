@@ -1,0 +1,42 @@
+.card {
+  max-width: 400px;
+  padding: 0 10px;
+  position: relative;
+  margin-bottom: 20px;
+
+  &__shadow-wrapper {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+    
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.07);
+  }
+  &__picture {
+    background: no-repeat center / cover;
+    height: 185px;
+    position: relative;
+  }
+  &__content {
+    padding: 15px 20px 20px 20px;
+    position: relative;
+  } 
+  &__title {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  &__text {
+    padding-bottom: 49px;
+  }
+  &__sub-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__date {
+    padding-left: 30px;
+    color: red;
+  }
+}

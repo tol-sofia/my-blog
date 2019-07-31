@@ -1,0 +1,44 @@
+.services__card {
+  
+  &__block-1 {
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 0 25px;    
+  }
+  &__block-2 {
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 0 25px;
+    margin-top: 54px;
+  }
+   &__block-3 {
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 0 25px;
+    margin-top: 155px;
+   }
+
+    &__title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      color: #3A4959;
+      letter-spacing: 1px;
+    }
+    &__text {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      
+      color: #3A4959;
+    }
+    &__image {
+      position: relative;
+      height: 200px;
+      border-radius: 10px 10px 0px 0px;
+    }
+  }

@@ -1,0 +1,31 @@
+.inner {
+    background: #F2F2F2;
+    
+    &__subtitle {
+        text-transform: uppercase; 
+        margin: 0 0 45px 0;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 60px;
+    }
+    &__title-ident {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+      }
+    &__content {
+        padding: 40px 100px 57px 100px;
+        text-align: left;
+    }
+    &__text { 
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        box-sizing: border-box
+    }
+    &__picture {
+        background: url('./img/bar.png') no-repeat center / cover;
+        margin-top: 45px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,33 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet">
+    <title>МойБлог.БлогМой</title>
+  </head>  
+<body>
+  @@include('./../components/header.html')
+  <div class="list">
+    <div class="container">
+      <div class="list__content">
+      <h1 class="title">Мой блог</h1>
+      <div class="list__block">
+          @@include('./../components/card.html')
+          @@include('./../components/card.html')
+          @@include('./../components/card.html')
+          @@include('./../components/card.html')
+          @@include('./../components/card.html')
+          @@include('./../components/card.html')
+    </div>
+    @@include('./../components/button.html', {
+      "text": "Посмотреть все новости",
+      "href": "news.html",
+      "class": "button__center"
+    })
+    </div>
+  </div>
+</div>
+  @@include('./../components/phone.html')
+  @@include('./../components/footer.html')
+</body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,49 @@
+//Open Sans Condensed
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic');
+// Bebas Neue
+//@import url('http://allfont.ru/allfont.css?fonts=bebas-neue');
+// Reboot
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css');
+//Montserrat
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+@mixin text-size ($font, $line) {
+  font-size: $font + px;
+  line-height: $line + px;
+}
+
+body {
+  background: #F5FAFF;
+
+  font-size: 20px;
+  line-height: 27px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+
+  &_one {
+    @include text-size(55, 75);
+    margin-bottom: 40px;
+  }
+  &_white {
+    color: #fff;
+  }
+  &_center {
+    text-align: center;
+  }
+}

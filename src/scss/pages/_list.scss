@@ -1,0 +1,15 @@
+.list {
+  background: #F2F2F2;
+
+  &__content {
+    padding: 50px 0;
+  }
+  &__block {
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    display: flex;
+    margin: 0 -10px;
+  }
+}
+
+

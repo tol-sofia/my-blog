@@ -1,0 +1,79 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet">
+    <title>МойБлог.БлогМой</title>
+  </head>  
+<body>
+  @@include('./../components/header.html')
+  <div class="news-page">
+    <div class="container">
+      <div class="news-page__content">
+        <h1 class="title title_one">Обо мне</h1>
+        <div class="news-page__block">
+          <div class="news-page__photo"><img src="./img/photo.png"></div>
+          <div class="news-page__info">
+              <h1 class="title title_one">Иннокентий Смоктуновский</h1>
+            <div class="news-page__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio quasi culpa eveniet assumenda quia qui molestiae est ea odio quos voluptatibus perspiciatis, ipsam impedit tempore ducimus omnis deserunt adipisci inventore dicta consectetur, reiciendis fugiat ad! Eum excepturi accusantium amet odio corporis? Odio dignissimos repudiandae vero sapiente voluptatum laboriosam fuga quidem quos, nostrum voluptate, qui recusandae commodi. Aliquid tenetur repellat velit assumenda sapiente aspernatur ratione, error labore pariatur cum architecto debitis odio mollitia unde officiis distinctio quia quam, voluptas quidem quasi dolorum, repudiandae obcaecati. Veniam voluptatibus dolorum iste molestiae repellat officiis quibusdam recusandae sequi cupiditate, sit corrupti! Illo, esse quibusdam?
+            </div>
+            <div class="news-page__icon">
+              <div class="news-page__icon_city"></div>
+              <div class="news-page__icon-text title">Тольятти</div>
+            </div>
+            <div class="news-page__icon">
+              <div class="news-page__icon_photo"></div>
+              <div class="news-page__icon-text title">Фотограф</div>
+            </div>
+            <div class="news-page__icon">
+              <div class="news-page__icon_data"></div>
+              <div class="news-page__icon-text title">10 ноября</div>
+            </div>
+          </div>
+        </div>
+        <div class="news-page__gallery">
+            @@include('./../components/gallery-card.html', {
+              "image": "./img/girl1.png",
+              "text": "Фото в сквере нашего парка",
+              "data": "10.02.2018"
+            })
+  
+            @@include('./../components/gallery-card.html', {
+              "image": "./img/girl2.png",
+              "text": "Красивый закат и девушка",
+              "data": "17.03.2017"
+            })
+  
+            @@include('./../components/gallery-card.html', {
+              "image": "./img/girl3.png",
+              "text": "Красивые горы на фоне",
+              "data": "21.01.2017"
+            })
+  
+            @@include('./../components/gallery-card.html', {
+              "image": "./img/girl4.png",
+              "text": "Успела заснять капитана Marvel",
+              "data": "13.06.2017"
+            })
+  
+            @@include('./../components/gallery-card.html', {
+              "image": "./img/girl5.png",
+              "text": "Эмма Уотсон уже не торт",
+              "data": "03.08.2016"
+            })
+  
+            @@include('./../components/gallery-card.html', {
+              "image": "./img/girl6.png",
+              "text": "Жру и не толтею, сжечь меня, шучу",
+              "data": "30.01.2014"
+            })
+        </div>
+
+    </div>
+  </div>
+</div>
+  @@include('./../components/phone.html')
+  @@include('./../components/footer.html')
+</body>
+<script src="script.js"></script>
+</html>
